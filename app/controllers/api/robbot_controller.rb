@@ -1,7 +1,8 @@
 class Api::RobbotController < ApplicationController
     skip_before_action :verify_authenticity_token
     def test
-        render json: {status: "testing"}
+        # test
+        render json: {status: "testing commenting"}
     end
 
     def create
